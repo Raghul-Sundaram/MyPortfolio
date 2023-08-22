@@ -1,10 +1,10 @@
 import './Button.css'
 
-const Button = ({text}) => {
+const Button = ({text,link}) => {
     return(
        <div>
          <button className='button'>
-          <a href='https://www.youtube.com/watch?v=LqDCuqV9BaY&t=872s'  target='_blank' rel='noreferrer'>{text}</a>
+          <a href={link}  target='_blank' rel='noreferrer'>{text}</a>
          </button>
        </div>
     );
