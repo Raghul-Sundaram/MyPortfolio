@@ -11,7 +11,7 @@ const About = () => {
         I am currently working as a intern at lucid Imaging in Software Development Domain.</p>
         <br></br>
         <br></br>
-        <Button text="Download CV" />
+        <Button text="Download CV" link="https://drive.google.com/file/d/11Lo3FA_fZ2UE3GEwlkzqLeOqHbYZW7e_/view?usp=sharing" />
     </section>
   )
 }
